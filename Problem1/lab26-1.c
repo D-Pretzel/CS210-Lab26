@@ -13,11 +13,11 @@
 int main() {
 
     // Declare Two Point Structs
-
+    Point point1;
+    Point point2;
     // Call Get Points
-
+    getPoints(&point1, &point2);
     // Print the Distance Between Point 1 and Point 2
-
+    printf("The distance between the points is: %.2f", getDistance(point1, point2));
     return 0;
-
 }
