@@ -17,15 +17,19 @@ int main() {
 
     // When You Know Where the Key Is, Call This Function and Give It the Path
     //getKey(dungeon->);
+    getKey(dungeon->goNorth->goNorth->goWest->goWest->goNorth);
 
     // When You Know Where the Sword Is, Call This Function and Give It the Path
     //getSword(dungeon->);
+    getSword(dungeon->goNorth->goNorth->goNorth->goNorth->goEast->goSouth);
 
     // When You Know Where the Door Is, Call This Function and Give It the Path
     //openDoor(dungeon->);
+    openDoor(dungeon->goNorth->goNorth->goNorth->goNorth->goWest);
 
     // When You Know Where the Door Is, Call This Function and Give It the Path
     //attackDragon(dungeon->);
+    attackDragon(dungeon->goNorth->goNorth->goNorth->goNorth->goWest->goWest->goWest->goNorth);
 
     return 0;
 }

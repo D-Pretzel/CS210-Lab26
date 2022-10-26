@@ -112,7 +112,7 @@ Room *createDungeon()
     connectRooms(room1_4, room1_5, South);
     connectRooms(room1_2, room2_1, North);
     connectRooms(room2_1, room2_2, North);
-    
+
     return startingRoom;
 }
 
