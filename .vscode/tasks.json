@@ -4,10 +4,11 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: gcc build active file",
-			"command": "/usr/bin/gcc",
+			"command": "C:/msys64/mingw64/bin/gcc.exe",
 			"args": [
 				"-g",
-				"lab26-1.c",
+				"lab26-2.c",
+				"dungeon.c",
 				"-lm",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
@@ -22,7 +23,7 @@
 				"kind": "build",
 				"isDefault": true
 			},
-			"detail": "compiler: /usr/bin/gcc"
+			"detail": "compiler: C:/msys64/mingw64/bin/gcc.exe"
 		}
 	]
 }
